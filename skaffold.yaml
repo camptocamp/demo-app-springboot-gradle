@@ -1,0 +1,9 @@
+apiVersion: skaffold/v2beta9
+kind: Config
+metadata:
+  name: build-demo-app-springboot-gradle
+build:
+  artifacts:
+  - image: aureliencamperguec2c/demo-app-springboot-gradle
+    context: .
+    jib: {}
