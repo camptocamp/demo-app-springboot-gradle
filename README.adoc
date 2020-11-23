@@ -25,3 +25,8 @@ curl -X POST localhost:8080/actuator/shutdown
 list of endpoints: 
 
 https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/reference/htmlsingle/#production-ready-endpoints-exposing-endpoints
+
+
+
+
+https://spring.io/blog/2020/03/25/liveness-and-readiness-probes-with-spring-boot
