@@ -2,7 +2,7 @@ site:
   title: Springboot Demo Application
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://github.com/camptocamp/demo-app-springboot-gradle
-  start_page: demo-app-springboot-gradle::index.adoc
+  start_page: demo-app-springboot-gradle-war::index.adoc
 content:
   sources:
   - url: ./
