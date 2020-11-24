@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Camptocamp&#8217;s DevOps stack :: Springboot Demo Application</title>
+    <title>Springboot demo-app :: Springboot Demo Application</title>
     <link rel="canonical" href="https://github.com/camptocamp/demo-app-springboot-gradle/demo-app-springboot-gradle-war/0.1.0/index.html">
     <meta name="generator" content="Antora 2.3.4">
     <link rel="stylesheet" href="../../_/css/site.css">
@@ -89,7 +89,7 @@
 </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Camptocamp&#8217;s DevOps stack</h1>
+<h1 class="page">Springboot demo-app</h1>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="https://github.com/camptocamp/demo-app-springboot-gradle.git"><img src="_images/github.svg" alt="github" width="150" height="250"></a>
@@ -97,6 +97,43 @@
 </div>
 <div class="paragraph">
 <p><a href="https://github.com/camptocamp/demo-app-springboot-gradle.git">This repository</a> contains a Springboot based demo exposing Actuator endpoints deployed in K8S with Helm using Skaffold.</p>
+</div>
+<div class="paragraph">
+<p>app started with : <a href="https://start.spring.io/" class="bare">https://start.spring.io/</a></p>
+</div>
+<div class="paragraph">
+<p>Java 11
+gradle
+war
+springboot 2.4.0</p>
+</div>
+<div class="paragraph">
+<div class="title">/gradlew bootRun</div>
+<p><a href="http://localhost:8080/actuator/health" class="bare">http://localhost:8080/actuator/health</a></p>
+</div>
+<div class="paragraph">
+<p><a href="http://localhost:8080/actuator/info" class="bare">http://localhost:8080/actuator/info</a></p>
+</div>
+<div class="paragraph">
+<p><a href="http://127.0.0.1:8080/actuator/metrics" class="bare">http://127.0.0.1:8080/actuator/metrics</a></p>
+</div>
+<div class="paragraph">
+<p><a href="http://127.0.0.1:8080/actuator/env" class="bare">http://127.0.0.1:8080/actuator/env</a></p>
+</div>
+<div class="paragraph">
+<p><a href="http://127.0.0.1:8080/actuator/prometheus" class="bare">http://127.0.0.1:8080/actuator/prometheus</a></p>
+</div>
+<div class="paragraph">
+<p>curl -X POST localhost:8080/actuator/shutdown</p>
+</div>
+<div class="paragraph">
+<p>list of endpoints:</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/reference/htmlsingle/#production-ready-endpoints-exposing-endpoints" class="bare">https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/reference/htmlsingle/#production-ready-endpoints-exposing-endpoints</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://spring.io/blog/2020/03/25/liveness-and-readiness-probes-with-spring-boot" class="bare">https://spring.io/blog/2020/03/25/liveness-and-readiness-probes-with-spring-boot</a></p>
 </div>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
