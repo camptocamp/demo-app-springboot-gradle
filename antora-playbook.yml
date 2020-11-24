@@ -1,0 +1,20 @@
+site:
+  title: Springboot Demo Application
+  # the 404 page and sitemap files only get generated when the url property is set
+  url: https://github.com/camptocamp/demo-app-springboot-gradle
+  start_page: demo-app-springboot-gradle::index.adoc
+content:
+  sources:
+  - url: ./
+    branches: HEAD
+    edit_url: false
+    start_path: docs
+ui:
+  bundle:
+    url: https://github.com/camptocamp/antora-ui/releases/download/LATEST/ui-bundle.zip
+    snapshot: true
+  supplemental_files:
+  - path: ui.yml
+    contents: |
+      static_files: [ .nojekyll ]
+  - path: .nojekyll

@@ -1,0 +1,6 @@
+---
+name: demo-app-springboot-gradle-war
+title: Springboot Demo App
+version: 0.1.0
+nav:
+  - modules/ROOT/nav.adoc
