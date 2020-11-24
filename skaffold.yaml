@@ -4,7 +4,7 @@ metadata:
   name: build-demo-app-springboot-gradle
 build:
   artifacts:
-  - image: aureliencamperguec2c/demo-app-springboot-gradle
+  - image: camptocamp/demo-app-springboot-gradle
     context: .
     jib: {}
 deploy:
@@ -13,4 +13,4 @@ deploy:
     - name: my-release
       chartPath: helm
       artifactOverrides:
-        image: aureliencamperguec2c/demo-app-springboot-gradle
+        image: camptocamp/demo-app-springboot-gradle
