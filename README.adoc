@@ -1,32 +1,14 @@
-app started with : https://start.spring.io/
+:documentation-url: https://camptocamp.github.io/demo-app-springboot-gradle/
 
-Java 11
-gradle
-war
-springboot 2.4.0
+= Springboot demo-app
 
+== Overview
 
+This repository contains the reference implementation of a Springboot based demo exposing Actuator endpoints deployed in K8S with Helm using Skaffold.
 
+== Documentation
 
-./gradlew bootRun
+The documentation is written using Asciidoc and Antora and located in the docs/ folder.
+The https://documentation.divio.com/structure/[Divio documentation structure] is used to organize its content.
 
-http://localhost:8080/actuator/health
-
-http://localhost:8080/actuator/info
-
-http://127.0.0.1:8080/actuator/metrics
-
-http://127.0.0.1:8080/actuator/env
-
-http://127.0.0.1:8080/actuator/prometheus
-
-curl -X POST localhost:8080/actuator/shutdown
-
-list of endpoints: 
-
-https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/reference/htmlsingle/#production-ready-endpoints-exposing-endpoints
-
-
-
-
-https://spring.io/blog/2020/03/25/liveness-and-readiness-probes-with-spring-boot
+The documentation is published here: {documentation-url}
