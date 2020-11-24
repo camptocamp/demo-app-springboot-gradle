@@ -1,5 +1,8 @@
 * xref:index.adoc[Introduction]
 * Tutorials
+** xref:build.adoc[Build]
 * How-to guides
 * Reference Guides
+** xref:features.adoc[Features]
+
 * Explanations

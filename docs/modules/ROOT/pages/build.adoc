@@ -1,0 +1,34 @@
+= Build the demo application
+
+:gradle: https://gradle.org/
+:skaffold: https://skaffold.dev/docs/
+:skaffold-jib: https://skaffold.dev/docs/pipeline-stages/builders/jib/
+
+This application is built using {gradle}[Gradle], orchestrated via {skaffold}[Skaffold] via the {skaffold-jib}[Jib] plugin
+
+
+
+Java 11
+gradle
+war
+springboot 2.4.0
+
+./gradlew bootRun
+
+
+
+
+
+
+
+
+
+
+
+
+
+list of endpoints: 
+
+https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/reference/htmlsingle/#production-ready-endpoints-exposing-endpoints
+
+https://spring.io/blog/2020/03/25/liveness-and-readiness-probes-with-spring-boot

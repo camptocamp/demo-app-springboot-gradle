@@ -1,0 +1,17 @@
+= Features
+
+This application was developped using https://spring.io/[Spring] using the https://start.spring.io/[Spring Initializer] and therefore, provides natively https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html[production ready features].
+
+In the whole list of features, we enable the following ones:
+
+.List of activated features
+[options="header"]
+|=======================
+|ID         |Description|URL or command|
+|env        |Exposes properties from Spring’s ConfigurableEnvironment.|http://127.0.0.1:8080/actuator/env|
+|health     |Shows application health information.|http://localhost:8080/actuator/health|
+|info       |Displays arbitrary application info.|http://localhost:8080/actuator/info|
+|metrics    |Shows ‘metrics’ information for the current application.|http://127.0.0.1:8080/actuator/metrics|
+|prometheus |Exposes metrics in a format that can be scraped by a Prometheus server.|http://127.0.0.1:8080/actuator/prometheus|
+|shutdown   |Lets the application be gracefully shutdown.|curl -X POST http://127.0.0.1:8080/actuator/shutdown|
+|=======================
